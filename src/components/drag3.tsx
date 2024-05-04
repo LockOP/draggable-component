@@ -51,7 +51,6 @@ export default function RangeSlider() {
               style={{}}
               min={0}
               max={1000}
-              
               getAriaLabel={() => "Range"}
               value={value}
               onChange={handleChange}
